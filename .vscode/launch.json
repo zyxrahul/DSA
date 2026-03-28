@@ -1,0 +1,80 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "BFS",
+      "request": "launch",
+      "mainClass": "Graph.BFS",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "SimpleGraph",
+      "request": "launch",
+      "mainClass": "Graph.SimpleGraph",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "FrequentElement",
+      "request": "launch",
+      "mainClass": "HashMap.FrequentElement",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "PersonAgeCollection",
+      "request": "launch",
+      "mainClass": "HashMap.PersonAgeCollection",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "BinarySearchTree",
+      "request": "launch",
+      "mainClass": "Tree.BinarySearchTree",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "postfixEvaluation",
+      "request": "launch",
+      "mainClass": "Stacks.postfixEvaluation",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "TraversalInTree",
+      "request": "launch",
+      "mainClass": "Tree.TraversalInTree",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "implementation",
+      "request": "launch",
+      "mainClass": "Tree.implementation",
+      "projectName": "dsa"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

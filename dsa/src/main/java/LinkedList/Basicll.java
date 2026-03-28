@@ -8,6 +8,28 @@ public class Basicll {
       this.data=data;
     }
   }
+  public static void AddatEnd(node head,int val){
+    node t=new node(val);
+    node temp=head;
+    while(temp.next!=null){
+      temp=temp.next;
+
+    }
+    temp.next=t;
+    
+  }
+  public static void delAtindx(node head,int idx){
+    if(idx==0){
+      head=head.next;
+      return;
+    }
+    node temp=head;
+    for(int i=1;i<idx;i++){
+      temp=temp.next;
+    }
+    temp.next=temp.next.next;
+
+  }
   public static void main(String[] args) {
 
     //Data store
@@ -34,6 +56,8 @@ public class Basicll {
     // System.out.println(a.next.next.next.data);
     // System.out.println(d);
     // System.out.println(e);
+    AddatEnd(a, 258);
+    delAtindx(a, 2);
 
     node temp=a;
     while (temp!=null) {

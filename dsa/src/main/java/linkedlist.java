@@ -10,6 +10,8 @@ public class linkedlist {
   public static class linkedList{
     node head=null;
     node tail=null;
+
+
     void insertAtBegain(int val){
       node temp=new node(val);
       if(head==null){//Empty case
@@ -21,6 +23,23 @@ public class linkedlist {
       }
       
     }
+    void insertAt(int idx, int val){
+      node temp=new node(val);
+      node t=head;
+      if(idx==0){
+        insertAtBegain(val);
+      }
+      else if(idx==size()){
+        insertAtEnd(val);
+      }
+      else{
+      for(int i=1;i<=idx-1;i++){
+        t=t.next;
+      }
+      temp.next=t.next;
+      t.next=temp;
+              }
+       }
     void  insertAtEnd(int val){
       node temp=new node(val);
       if(head==null){
@@ -39,6 +58,17 @@ public class linkedlist {
         temp=temp.next;
       }
 
+    }
+        int getAtElement(int idx){
+          if(idx<0 || idx>size()){
+            System.out.println("out of index error. ");
+            return -1;
+          }
+      node temp=head;
+      for(int i=0;i<idx;i++){
+        temp=temp.next;
+      }
+      return temp.data;
     }
     // size
     int size(){
@@ -64,7 +94,11 @@ public class linkedlist {
     ll.insertAtBegain(121);
     ll.insertAtBegain(22);
     ll.display();
+    System.out.println();
+    ll.insertAt(1,10);
+    ll.display();
     System.out.println( );
+    System.out.println(ll.getAtElement(3));
     System.out.println("The length of linked list is:"+ll.size());
 
   }
