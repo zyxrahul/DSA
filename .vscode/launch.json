@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CountTheNO1",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.CountTheNO1",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
       "name": "allPathFromSourceToTarget",
       "request": "launch",
       "mainClass": "Graph.allPathFromSourceToTarget",
