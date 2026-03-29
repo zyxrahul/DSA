@@ -83,3 +83,5 @@ public class CountTheNO1 {
 //         System.out.println("The number of special character: " + e);
 //     }
 // }
+
+dtsxgfcgkhfo78guybluigh807oghijhbioubnkjbniuhbijk
