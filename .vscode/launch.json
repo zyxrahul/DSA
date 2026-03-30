@@ -3,6 +3,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MenuDriven",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.MenuDriven",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "ThreadCheckingForStringBUffer",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.ThreadCheckingForStringBUffer",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "stringBuilderMethod",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.stringBuilderMethod",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "StringDemo",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.StringDemo",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "removeAllWhiteSpaces",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.removeAllWhiteSpaces",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "FrequencyOfAllcharacter",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.FrequencyOfAllcharacter",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "CompareAll",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.CompareAll",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "palindrome",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.palindrome",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
       "name": "CountTheNO1",
       "request": "launch",
       "mainClass": "ClassWork.Inheritance.Lab5.CountTheNO1",
