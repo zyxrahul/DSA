@@ -3,6 +3,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "producerConsumer",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.producerConsumer",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "Synchrozied",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.Synchrozied",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "ThreadInheritance",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.ThreadInheritance",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "ThrowAndThrows",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.ThrowAndThrows",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "userDefineException",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.userDefineException",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "MultipleException",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.MultipleException",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "ArthExceptionHandle",
+      "request": "launch",
+      "mainClass": "ClassWork.Inheritance.Lab5.ArthExceptionHandle",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
       "name": "MenuDriven",
       "request": "launch",
       "mainClass": "ClassWork.Inheritance.Lab5.MenuDriven",
