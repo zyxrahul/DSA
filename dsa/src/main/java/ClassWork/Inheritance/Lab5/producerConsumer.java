@@ -11,7 +11,7 @@ static class SharedResource {
     public synchronized void produce(int value) {
         try {
             while (available) {
-                wait(); // wait until data is consumed
+                wait(); 
             }
             data = value;
             System.out.println("Produced: " + data);
