@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "optemizeFourDirectionBlockedMaze",
+      "request": "launch",
+      "mainClass": "Backtracking.optemizeFourDirectionBlockedMaze",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "FourDirectionBlockedMaze",
+      "request": "launch",
+      "mainClass": "Backtracking.FourDirectionBlockedMaze",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "FourDirectionMazePath",
+      "request": "launch",
+      "mainClass": "Backtracking.FourDirectionMazePath",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "printPathOfMaze",
+      "request": "launch",
+      "mainClass": "Backtracking.printPathOfMaze",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "CountPathOfMaze",
+      "request": "launch",
+      "mainClass": "Backtracking.CountPathOfMaze",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "HeapSort",
+      "request": "launch",
+      "mainClass": "Tree.HeapSort",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
       "name": "producerConsumer",
       "request": "launch",
       "mainClass": "ClassWork.Inheritance.Lab5.producerConsumer",
