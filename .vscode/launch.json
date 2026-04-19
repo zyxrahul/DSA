@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "nQueens",
+      "request": "launch",
+      "mainClass": "Backtracking.nQueens",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
+      "name": "printPermutation",
+      "request": "launch",
+      "mainClass": "Backtracking.printPermutation",
+      "projectName": "dsa"
+    },
+    {
+      "type": "java",
       "name": "optemizeFourDirectionBlockedMaze",
       "request": "launch",
       "mainClass": "Backtracking.optemizeFourDirectionBlockedMaze",
